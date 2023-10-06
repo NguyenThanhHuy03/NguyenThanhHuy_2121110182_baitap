@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NguyenThanhHuy_2121110182_b1", "NguyenThanhHuy_2121110182_BT\NguyenThanhHuy_2121110182_b1.csproj", "{FE973BA9-EC86-42A0-80DC-9539531D930A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGridView", "DataGridView\DataGridView.csproj", "{BF4345B3-B55F-4365-BE1F-BFCBC746FFC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE973BA9-EC86-42A0-80DC-9539531D930A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE973BA9-EC86-42A0-80DC-9539531D930A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE973BA9-EC86-42A0-80DC-9539531D930A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE973BA9-EC86-42A0-80DC-9539531D930A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF4345B3-B55F-4365-BE1F-BFCBC746FFC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF4345B3-B55F-4365-BE1F-BFCBC746FFC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF4345B3-B55F-4365-BE1F-BFCBC746FFC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF4345B3-B55F-4365-BE1F-BFCBC746FFC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4ADE19B7-1581-4FBA-ADD8-9D64A319230C}
+	EndGlobalSection
+EndGlobal
