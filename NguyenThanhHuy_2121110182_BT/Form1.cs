@@ -16,5 +16,10 @@ namespace NguyenThanhHuy_2121110182_BT
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
