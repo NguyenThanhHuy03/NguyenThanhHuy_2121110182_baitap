@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NguyenThanhHuy_2121110182_b
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGridView", "DataGridView\DataGridView.csproj", "{BF4345B3-B55F-4365-BE1F-BFCBC746FFC2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Picturebox", "PictureBox\Picturebox.csproj", "{15C91D7B-EB65-4660-B378-FFF55D646232}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BF4345B3-B55F-4365-BE1F-BFCBC746FFC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF4345B3-B55F-4365-BE1F-BFCBC746FFC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF4345B3-B55F-4365-BE1F-BFCBC746FFC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15C91D7B-EB65-4660-B378-FFF55D646232}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15C91D7B-EB65-4660-B378-FFF55D646232}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15C91D7B-EB65-4660-B378-FFF55D646232}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15C91D7B-EB65-4660-B378-FFF55D646232}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
