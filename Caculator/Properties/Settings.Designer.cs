@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace PictureBox.Properties
+namespace Caculator.Properties
 {
 
 

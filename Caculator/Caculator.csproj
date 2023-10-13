@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{15C91D7B-EB65-4660-B378-FFF55D646232}</ProjectGuid>
+    <ProjectGuid>{3583C5EF-5EA1-4073-92D1-11B596A77C83}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>PictureBox</RootNamespace>
-    <AssemblyName>PictureBox</AssemblyName>
+    <RootNamespace>Caculator</RootNamespace>
+    <AssemblyName>Caculator</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

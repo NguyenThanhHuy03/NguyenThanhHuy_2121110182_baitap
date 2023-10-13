@@ -31,8 +31,6 @@
             this.btFile = new System.Windows.Forms.Button();
             this.btLeft = new System.Windows.Forms.Button();
             this.btRight = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btFile
@@ -65,14 +63,6 @@
             this.btRight.UseVisualStyleBackColor = true;
             this.btRight.Click += new System.EventHandler(this.btRight_Click);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(45, 45);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(151, 167);
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -81,10 +71,8 @@
             this.Controls.Add(this.btFile);
             this.Controls.Add(this.btLeft);
             this.Controls.Add(this.btRight);
-            this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -94,7 +82,6 @@
         private System.Windows.Forms.Button btFile;
         private System.Windows.Forms.Button btLeft;
         private System.Windows.Forms.Button btRight;
-        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

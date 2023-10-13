@@ -22,11 +22,19 @@ namespace Picture
 
         private void btFile_Click(object sender, EventArgs e)
         {
-            pb.SizeMode = PictureBoxSizeMode.StretchImage;
-            pb.Size = new Size(100, 100);
-            pb.Location = new Point(x, y);
-            this.Controls.Add(pb);
-            pb.ImageLocation = @"C:\Users\ADMIN\OneDrive\Hình ảnh\Saved Pictures\item1.jpg";
+            // Tạo một OpenFileDialog để chọn tệp hình ảnh
+            using (OpenFileDialog openFileDialog = new OpenFileDialog())
+            {
+                openFileDialog.Filter = "Image Files|*.jpg;*.jpeg;*.png;*.gif;*.bmp;*.ico"; // Bộ lọc cho các tệp hình ảnh
+                if (openFileDialog.ShowDialog() == DialogResult.OK) // Hiển thị hộp thoại và kiểm tra xem người dùng đã chọn tệp chưa
+                {
+                    pb.SizeMode = PictureBoxSizeMode.StretchImage;
+                    pb.Size = new Size(100, 100);
+                    pb.Location = new Point(x, y);
+                    this.Controls.Add(pb);
+                    pb.ImageLocation = openFileDialog.FileName; // Đặt hình ảnh của PictureBox từ tệp đã chọn
+                }
+            }
         }
 
         private void btLeft_Click(object sender, EventArgs e)
