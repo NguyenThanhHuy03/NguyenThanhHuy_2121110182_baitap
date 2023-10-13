@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Picture", "Picture\Picture.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caculator", "Caculator\Caculator.csproj", "{3583C5EF-5EA1-4073-92D1-11B596A77C83}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioButton_CheckBox", "RadioButton_CheckBox\RadioButton_CheckBox.csproj", "{DDFACEBD-E526-440F-B5CC-397287ADC068}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTime", "DateTime\DateTime.csproj", "{57AB1565-03AF-43C2-89EE-0105A2521658}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{3583C5EF-5EA1-4073-92D1-11B596A77C83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3583C5EF-5EA1-4073-92D1-11B596A77C83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3583C5EF-5EA1-4073-92D1-11B596A77C83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDFACEBD-E526-440F-B5CC-397287ADC068}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDFACEBD-E526-440F-B5CC-397287ADC068}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDFACEBD-E526-440F-B5CC-397287ADC068}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDFACEBD-E526-440F-B5CC-397287ADC068}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57AB1565-03AF-43C2-89EE-0105A2521658}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57AB1565-03AF-43C2-89EE-0105A2521658}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57AB1565-03AF-43C2-89EE-0105A2521658}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57AB1565-03AF-43C2-89EE-0105A2521658}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
