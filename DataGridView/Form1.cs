@@ -23,8 +23,15 @@ namespace DataGridView
         {
         }
 
-        private void button2_Click(object sender, EventArgs e) //thêm
+        private void button2_Click(object sender, EventArgs e) // Thêm
         {
+            // Kiểm tra nếu các trường thông tin cần thiết chưa được nhập
+            if (string.IsNullOrWhiteSpace(textBox1.Text) || string.IsNullOrWhiteSpace(textBox2.Text) || string.IsNullOrWhiteSpace(textBox3.Text))
+            {
+                MessageBox.Show("Vui lòng nhập đầy đủ thông tin trước khi thêm.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
             Employee em = new Employee();
             em.Id = textBox1.Text;
             em.Name = textBox2.Text;
@@ -56,7 +63,9 @@ namespace DataGridView
 
             // Thêm hàng vào dataGridView1
             dataGridView1.Rows.Add(row);
+
         }
+
 
         private void button1_Click(object sender, EventArgs e)//xoá
         {
@@ -155,6 +164,23 @@ namespace DataGridView
 
 
 
+        }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0)
+            {
+                DataGridViewRow row = dataGridView1.Rows[e.RowIndex];
+
+                pbImage.Image = row.Cells[0].Value as System.Drawing.Image;
+                textBox1.Text = row.Cells[1].Value.ToString();
+                textBox2.Text = row.Cells[2].Value.ToString();
+                textBox3.Text = row.Cells[3].Value.ToString();
+
+                string gender = row.Cells[4].Value.ToString();
+                checkBox1.Checked = gender == "Nam";
+                checkBox2.Checked = gender == "Nữ";
+            }
         }
     }
 }
