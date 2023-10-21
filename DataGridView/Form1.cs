@@ -32,6 +32,27 @@ namespace DataGridView
                 return;
             }
 
+            // Kiểm tra xem thông tin có bị trùng không
+            string id = textBox1.Text;
+            string name = textBox2.Text;
+
+            foreach (DataGridViewRow existingRow in dataGridView1.Rows)
+            {
+                if (existingRow.Cells[1].Value != null && existingRow.Cells[1].Value.ToString() == id)
+                {
+                    MessageBox.Show("Mã nhân viên đã tồn tại trong danh sách.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+                if (existingRow.Cells[2].Value != null && existingRow.Cells[2].Value.ToString() == name)
+
+                {
+                    MessageBox.Show("Tên đã tồn tại trong danh sách.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+              
+            }
+
+
             Employee em = new Employee();
             em.Id = textBox1.Text;
             em.Name = textBox2.Text;
@@ -63,7 +84,6 @@ namespace DataGridView
 
             // Thêm hàng vào dataGridView1
             dataGridView1.Rows.Add(row);
-
         }
 
 
@@ -181,6 +201,11 @@ namespace DataGridView
                 checkBox1.Checked = gender == "Nam";
                 checkBox2.Checked = gender == "Nữ";
             }
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
